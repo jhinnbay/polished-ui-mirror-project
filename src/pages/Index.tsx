@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Navbar } from '../components/Navbar';
 import { AnnouncementBanner } from '../components/AnnouncementBanner';
@@ -9,10 +10,10 @@ import { CTASection } from '../components/CTASection';
 
 const Index: React.FC = () => {
   return (
-    <main className="flex flex-col overflow-hidden relative min-h-[1596px] pb-[23px] px-[62px] max-md:px-5">
+    <main className="flex flex-col overflow-hidden relative min-h-screen bg-gray-900 pb-[23px] px-[62px] max-md:px-5">
       <img
         src="https://cdn.builder.io/api/v1/image/assets/6f2aebc9bb734d979c603aa774a20c1a/292c37a194e9e436696c659422252c6d751a4e4c?placeholderIfAbsent=true"
-        className="absolute h-full w-full object-cover inset-0"
+        className="absolute h-full w-full object-cover inset-0 opacity-80"
         alt="Background"
       />
       
