@@ -6,24 +6,15 @@ import { InviteSection } from '../components/InviteSection';
 import { ForumSection } from '../components/ForumSection';
 import { ChatRoomSidebar } from '../components/ChatRoomSidebar';
 import { CTASection } from '../components/CTASection';
-
 const Index: React.FC = () => {
-  return (
-    <main className="flex flex-col overflow-hidden relative min-h-screen bg-black pb-[23px] px-[62px] max-md:px-5">
-      <img
-        src="https://cdn.builder.io/api/v1/image/assets/6f2aebc9bb734d979c603aa774a20c1a/292c37a194e9e436696c659422252c6d751a4e4c?placeholderIfAbsent=true"
-        className="absolute h-full w-full object-cover inset-0 opacity-80"
-        alt="Background"
-      />
+  return <main className="flex flex-col overflow-hidden relative min-h-screen bg-black pb-[23px] px-[62px] max-md:px-5">
+      <img className="absolute h-full w-full object-cover inset-0 opacity-80" alt="Background" src="/lovable-uploads/0bee6bff-4e7a-44f7-83d4-1bb452d36d73.png" />
       
       <Navbar />
       
-      <div className="relative flex items-center gap-2.5 flex-wrap mt-[9px] p-2.5">
+      <div className="relative flex items-center gap-2.5 flex-wrap mt-[9px] p-2.5 my-0">
         <div className="self-stretch flex min-w-60 flex-col items-stretch w-[852px] my-auto px-[18px] py-4 rounded-[17px] max-md:max-w-full">
-          <nav 
-            className="flex w-full items-center gap-2.5 text-2xl font-[590] text-center leading-none max-md:max-w-full"
-            aria-label="Breadcrumb"
-          >
+          <nav className="flex w-full items-center gap-2.5 text-2xl font-[590] text-center leading-none max-md:max-w-full" aria-label="Breadcrumb">
             <div className="bg-clip-text bg-[linear-gradient(180deg,#ECECFF_0%,#E1E1FE_100%)] self-stretch my-auto text-white">
               Public.Square &gt; Home
             </div>
@@ -58,8 +49,6 @@ const Index: React.FC = () => {
         
         <ChatRoomSidebar />
       </div>
-    </main>
-  );
+    </main>;
 };
-
 export default Index;
