@@ -12,7 +12,7 @@ const Index: React.FC = () => {
       
       <Navbar />
       
-      <div className="bg-centergap-2.5 flex-wrap mt-[9px] p-2.5 my-0bg-centergap-2.5 flex-wrap mt-[9px] p-2.5 my-0">
+      <div className="relative flex items-center gap-2.5 flex-wrap mt-[9px] p-2.5 my-0">
         <div className="self-stretch flex min-w-60 flex-col items-stretch w-[852px] my-auto px-[18px] py-4 rounded-[17px] max-md:max-w-full">
           <nav className="flex w-full items-center gap-2.5 text-2xl font-[590] text-center leading-none max-md:max-w-full" aria-label="Breadcrumb">
             <div className="bg-clip-text bg-[linear-gradient(180deg,#ECECFF_0%,#E1E1FE_100%)] self-stretch my-auto text-white">
